@@ -22,6 +22,7 @@ maintenance:
 legal:
   license: AGPL-3.0-only
 localisation:
+  localisationReady: no
   availableLanguages:
     - it
 it:
