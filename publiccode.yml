@@ -30,11 +30,11 @@ description:
     genericName: pyWSArchiPRO
     localisedName: pyWSArchiPRO
     shortDescription: 'Protocollazioni e recupero Documenti da WSArchiPRO con Python '
-    longDescription: >
+    longDescription: |
       Protocollazione e recupero documenti da WSArchiPRO con Python tramite interfaccia ws SOAP.
 
       Qui di seguito è presentato un esempio di recupero di un protocollo:
-      ```
+      ~~~~ 
       from protocollo_ws.protocollo import Protocollo wsclient = Protocollo(wsdl_url=PROT_URL, username=PROT_LOGIN, password=PROT_PASSW, aoo=PROTOCOLLO_AOO, anno=2018, numero=234234)
 
       # Recupera
@@ -45,6 +45,6 @@ description:
       
       # Renderizza il documento che descrive il flusso di protocollazione (dataXML).
       wsclient.render_dataXML()
-      ```
+      ~~~~ 
     features:
       - Protocollazione
